@@ -1,5 +1,6 @@
 # Grupo_5--blog
 Eduardo Gomez
+
 David Ibañes
 
 Proyecto Aplicacion
