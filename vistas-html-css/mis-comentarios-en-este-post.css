@@ -10,7 +10,7 @@ body {
     align-items: center;
 }
 
-.new-post-button {
+.comment-button {
     background-color: #FCAB69;
     font-family: 'Montaga';
     font-size: 25px;
@@ -22,7 +22,7 @@ body {
     margin: 10px;
 }
 
-.my-posts-button {
+.my-comments-button {
     background-color: #FCAB69;
     font-family: 'Montaga';
     font-size: 25px;
@@ -57,13 +57,13 @@ body {
     margin: 10px;
 }
 
-.blog-post {
+.blog-comment {
     background-color: #2275A5;
     padding: 50px;
     margin: 50px;
 }
 
-.my-posts-title {
+.my-comments-title {
     background-color: #2275A5;
     padding: 20px;
     margin: 50px;
@@ -72,20 +72,7 @@ body {
     text-align: center;
 }
 
-.blog-post-container1 {
-    background-color: #2275A5;
-}
-
-.post-title {
-    background-color: #FCAB62;
-    padding: 10px;
-    font-family: 'Montaga';
-    margin: 10px;
-    color: #000000;
-    text-align: center;
-}
-
-.blog-post-container2 {
+.blog-comment-container1 {
     background-color: #2275A5;
     display: flex;
     justify-content: space-between;
@@ -112,7 +99,7 @@ body {
     flex-grow: 1;
 }
 
-.blog-post-container3 {
+.blog-comment-container2 {
     background-color: #2275A5;
 }
 
@@ -126,80 +113,7 @@ body {
     font-family: 'Roboto';
 }
 
-.blog-post-container4 {
-    background-color: #2275A5;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.left-container {
-    display: flex;
-    margin: 10px;
-    padding: 10px;
-    flex-grow: 5;
-}
-
-.comments-button {
-    background-color: #FCAB62;
-    font-family: 'Montaga';
-    font-size: 25px;
-    color: #000000;
-    border: none;
-    padding: 15px 10px;
-    cursor: pointer;
-    border-radius: 50px;
-    width: 100%;
-}
-
-.right-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    flex-grow: 1;
-    align-content: center;
-}
-
-.like-counter {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    align-content: center;
-}
-
-.like-button {
-    background-color: #2275A5;
-    border: none;
-    cursor: pointer;
-    font-size: 30px;
-}
-
-.like-number-p {
-    background-color: #2275A5;
-    font-size: 30px;
-}
-
-.dislike-counter {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    align-content: center;
-}
-
-.dislike-button {
-    background-color: #2275A5;
-    border: none;
-    cursor: pointer;
-    font-size: 30px;
-}
-
-.dislike-number-p {
-    background-color: #2275A5;
-    font-size: 30px;
-}
-
-.blog-post-container5 {
+.blog-comment-container3 {
     background-color: #2275A5;
     padding: 10px 0px;
     display: flex;
@@ -207,7 +121,7 @@ body {
     align-items: center;
 }
 
-.edit-post-button {
+.edit-comment-button {
     background-color: #FCAB69;
     font-family: 'Montaga';
     font-size: 25px;
@@ -220,7 +134,7 @@ body {
     width: 30%;
 }
 
-.delete-post-button {
+.delete-comment-button {
     background-color: #FCAB69;
     font-family: 'Montaga';
     font-size: 25px;
