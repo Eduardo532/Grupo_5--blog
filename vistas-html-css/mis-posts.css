@@ -63,6 +63,15 @@ body {
     margin: 50px;
 }
 
+.my-posts-title {
+    background-color: #2275A5;
+    padding: 20px;
+    margin: 50px;
+    font-family: 'Montaga';
+    color: #ffffff;
+    text-align: center;
+}
+
 .blog-post-container1 {
     background-color: #2275A5;
 }
