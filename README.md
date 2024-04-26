@@ -37,6 +37,6 @@ Un blog en el cual diferentes usuarios pueden realizar posts sólo con texto, y 
 
 + GitHub (git)
 + Java Springboot
-+ Angular (javascript)
++ Vue (javascript)
 + HTML y CSS
 + mariaDB (sql)
