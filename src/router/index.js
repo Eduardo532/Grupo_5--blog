@@ -1,11 +1,17 @@
-import { createRouter, createWebHashHistory } from "vue-router";
-import Home from '../components/Home.vue'
-import PostDetails from '../components/PostDetails.vue'
-
+import { createRouter, createWebHistory } from "vue-router";
+import Home from '../components/Home.vue';
+import PostDetails from '../components/PostDetails.vue';
+import Login from '../views/Login.vue';
 
 const router = createRouter({
-    history: createWebHashHistory(),
+    history: createWebHistory(),
     routes: [
+        {
+            path:'/login',
+            name: 'login',
+            component: Login
+
+        },
         {
             path: '/',
             name: 'home',
@@ -19,4 +25,4 @@ const router = createRouter({
     ]
 });
 
-export default router
+export default router;

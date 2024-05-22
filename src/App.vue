@@ -11,6 +11,7 @@
 
 <script setup>
   import Header from './components/Header.vue'
+  import router from './router'
 </script>
 
 <style>
