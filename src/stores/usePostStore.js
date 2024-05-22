@@ -18,6 +18,13 @@ export const usePostStore = defineStore('posts', {
         addPost(post){
             this.posts.unshift(post);
             localStorage.setItem('posts',JSON.stringify(this.posts));
+        },
+        removePost(post) {
+            const postId = post.id; 
+            const storedPosts = JSON.parse(localStorage.getItem('posts')); 
+            window.location.reload();
+            const updatedPosts = storedPosts.filter(p => p.id !== postId); 
+            localStorage.setItem('posts', JSON.stringify(updatedPosts)); 
         }
     }
 })
